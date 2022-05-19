@@ -22,7 +22,7 @@ namespace Seamster_Products.Models.Order
         // The database we be create
         private Database database;
 
-        // The container we will create.
+        // The container we will  Be create.
         private Container container;
 
         // The name of the database and container we will create
