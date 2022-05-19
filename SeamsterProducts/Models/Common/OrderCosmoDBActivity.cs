@@ -19,7 +19,7 @@ namespace Seamster_Products.Models.Order
         // The Cosmos client instance
         private CosmosClient cosmosClient;
 
-        // The database we will create
+        // The database we be create
         private Database database;
 
         // The container we will create.
