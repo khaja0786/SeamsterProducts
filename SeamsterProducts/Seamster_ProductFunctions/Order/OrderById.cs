@@ -27,7 +27,7 @@ namespace Seamster_Products.Seamster_ProductFunctions
             // initialising Azure Cosomosdb database connection.
             OrderCosmoDBActivity objCosmosDBActivitiy = new OrderCosmoDBActivity();
             await objCosmosDBActivitiy.InitiateConnection();
-            // retriving existing Order information based on Order GUId and partition key i.e. OrderId value
+            // retriving existing Order information based on Order GUId and partition key i.e. OrderId Value
             objOrderResponse = await objCosmosDBActivitiy.GetOrderItem(orderGUID, partitionkey);
 
             if (objOrderResponse != null && objOrderResponse.Resource != null)
